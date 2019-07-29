@@ -1,0 +1,545 @@
+﻿body 
+{
+    margin:0px;
+   background-color:#383d45; 
+}
+table.FollowUs_Table 
+{    
+    background-color:#ffffff;
+    width:1024px;
+    height:20px;    
+    border-bottom:solid;
+    border-bottom-width:1px;    
+    border-color:#e5e5e5;
+    top:0px;
+    border-collapse:collapse;   
+   
+}
+.FollowUs_TdFacebook 
+{
+    width:50px;
+    border-right:solid;
+    border-left:solid;
+    border-color:#e5e5e5;
+    border-right-width:2px;
+    border-left-width:2px;
+    text-align:center;
+}
+.Notifications_Div
+{
+
+
+    width:100px;
+    text-align:center;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    color:#b1b0b0;
+   
+
+
+}
+ .Notification_Div
+ {
+     width: 832px;
+ }
+.FollowUs_TdFacebook:hover 
+{
+
+    background-color:#ececec;
+    cursor:pointer;
+
+   
+
+}
+.FollowUs_TdTwitter 
+{
+
+    width:50px;
+    text-align:center;
+    border-right:solid;
+    border-color:#e5e5e5;
+    border-right-width:2px;
+    
+
+}
+.FollowUs_LinkedIn 
+{
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    color:#b1b0b0;
+}
+.FollowUs_TdTwitter:hover 
+{
+
+    background-color:#ececec;
+    cursor:pointer;
+
+   
+
+}
+.FollowUs_TdLinkedIn 
+{
+
+    width:50px;
+    text-align:center;
+   
+    border-right:solid;
+    border-color:#e5e5e5;
+    border-right-width:2px;
+
+}
+.FollowUs_TdLinkedIn:hover 
+{
+    background-color:#ececec;
+    cursor:pointer;
+}
+.FollowUs_GooglePlus 
+{
+    font-family:Bell MT;
+    font-size:26px;
+    color:#b1b0b0;
+    font-weight:bold;
+    vertical-align:middle;
+}
+.FollowUs_Links 
+{
+    font-family:Arial;
+    font-size:22px;
+    font-weight:bold;
+    color:#b1b0b0;
+}
+
+.FollowUs_Title 
+{
+
+    font-family:Arial;
+    font-size:12px;
+
+}
+.Title_Div 
+{
+
+    width:252px;
+    height:100px;
+    background-color:#a5c562;
+    float:left;
+    
+}
+.Username_Div 
+{
+
+    width:772px;
+    height:100px;
+    background-color:white;
+    float:right;
+    
+    
+}
+.Title_Porto 
+{
+    font-family:Arial;
+    font-size:22px;
+    color:white;
+   
+    
+}
+.Title_Quiz 
+{
+
+
+    font-family:Arial;
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+}
+.MenuBar_Div 
+{
+    background-color:#252b33;
+    height:45px;
+    font-family:Arial;
+    font-size:12px;
+    color:#8e9aa4;
+    padding-left:20px;
+
+    
+    
+}
+.MenuBar_Div:hover 
+{
+    background-color:#191d22;
+    border-right: 2px solid #a5c562;
+    border-collapse:collapse;
+    cursor:pointer;
+    color:#a5c562;
+    transition: background-color 400ms  ease-in-out;
+   
+}
+.FollowUs_GooglePlusSup 
+{
+
+    color:#b1b0b0;
+    font-weight:bold;
+
+}
+.MenuBar_Sub_Div 
+{
+    background-color:#1b1f25;
+    height:45px;
+    font-family:Arial;
+    font-size:12px;
+    color:#8e9aa4;
+    padding-left:20px;
+    border-right: 2px solid #a5c562;
+    transition: background-color 400ms  ease-in-out;
+}
+.MenuBar_Sub_Div:hover 
+{
+    background-color:#191d22;
+    border-collapse:collapse;
+    cursor:pointer;
+    color:#a5c562;
+    transition: background-color 400ms  ease-in-out;
+}
+.MenuBar_Layout_Div 
+{
+    background-color:#20252b;
+    height:970px;
+    width:251px;
+    float:left;
+}
+.Contents_Title_Div 
+{
+  background-color:#383f46;
+  width:772px;
+
+  height:170px;
+  float:right;  
+}
+.Contents_Proper_Div 
+{
+    background-color:#ecf0f1;
+    width:772px;
+    height:800px;
+    float:right;
+}
+
+.MenuBar_UserImage 
+{
+    
+    background-color:#252b33;
+    height:120px;
+    width:250px;
+    border-bottom:dashed;
+    border-bottom-width:1px;
+    border-bottom-color:#8e9aa4;
+    margin-left:20px;
+}
+.Contents_Link_View 
+{
+    background-color:white;
+    width:220px;
+    height:200px;
+    float:left;
+    margin-top:20px;
+    margin-left:25px;
+    border-radius: 5px;
+}
+.Contents_Link_New 
+{
+    background-color:white;
+    width:220px;
+    height:200px;
+    float:left;
+    margin-top:20px;
+    margin-left:30px;
+    border-radius: 5px;
+}
+.Contents_Link_Deleted 
+{
+    background-color:white;
+    width:220px;
+    height:200px;
+    float:left;
+    margin-top:20px;
+    margin-left:30px;
+    border-radius: 5px;
+}
+.Contents_Link_View_Icon 
+{
+    width:100px;
+    height:100px;
+    background-color:#a5c562;
+}
+.Contents_Link_New_Icon 
+{
+    width:72px;
+    height:72px;
+    background-color:#fdc554;
+    padding-top:28px;
+    padding-left:28px;
+	
+}
+.Contents_Link_Deleted_Icon 
+{
+    
+    width:100px;
+    height:100px;
+    background-color:#ff503f;
+
+}
+.Contents_Link_forth_Icon
+{
+    
+    width:100px;
+    height:100px;
+    background-color:#91dff3;
+
+}
+.Contents_Link_Anchor 
+{
+    font-family:Arial;
+    font-size:16px;
+    color:#8e9aa4;
+	text-decoration:none;
+
+}
+.Contents_Link_Anchor:hover 
+{
+    text-decoration:underline;
+    cursor:pointer;
+}
+#View_Tooltip 
+{
+    display: inline;
+    position: relative;
+}
+#View_Tooltip:hover:after
+{
+    background: #333;
+    background: #a5c562;
+    opacity:0.8;
+    border-radius: 5px;
+    bottom: 26px;
+    color: white;
+    content: attr(tooltip);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+    font-family:Arial;
+    font-size:12px;
+}
+#View_Tooltip:hover:before{
+    border: solid;
+    border-color: #a5c562 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+#New_Tooltip 
+{
+    display: inline;
+    position: relative;
+}
+#New_Tooltip:hover:after
+{
+    background: #333;
+    background: #fdc554;
+    opacity:0.8;
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(tooltip);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 195px;   
+    font-family:Arial;
+    font-size:12px;
+}
+#New_Tooltip:hover:before{
+    border: solid;
+    border-color: #fdc554 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+#Deleted_Tootip 
+{
+    display: inline;
+    position: relative;
+}
+#Deleted_Tootip:hover:after
+{
+    background: #333;
+    background: #ff503f;
+    opacity:0.8;
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(tooltip);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 175px;
+    font-family:Arial;
+    font-size:12px;
+}
+#Deleted_Tootip:hover:before{
+    border: solid;
+    border-color: #ff503f transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+.UserName_Div 
+{
+    width:110px;
+    float:left;
+}
+.UserImage_Div 
+{
+    
+    width:130px;
+    margin-top:20px;
+
+}
+.Username_Inner_Div 
+{
+    height:20px;
+    width:220px;
+    background-color:white;
+    float:right;
+}
+.User_Profile_Box
+{
+	width:200px;
+	height:135px;
+	background-color:#eeeeee;
+	border-radius:4px;
+	z-index:1;
+	margin-left:540px;
+	position:absolute;
+	margin-top:35px;
+    opacity:0.95;
+  
+}
+.User_Profile_Box_Profile_Link_Div
+{
+	width:195px;
+	height:40px;
+}
+.Time
+{
+	width:335px;
+	height:64px;
+	float:left;
+	margin-left:20px;
+}
+.SignIn-Time
+{
+	height:23px;
+}
+.MenuBar_Anchor 
+{
+    text-decoration:none;
+}
+.Chat_Title_Td
+{    
+    width:180px;
+    height:30px;
+    background-color:#ff503f;
+    border-radius:3px;
+    font-family:Arial;
+    font-size:12px;
+    color:#ffffff; 
+
+}
+.Chat_Box_Div 
+{
+    position:fixed;
+    bottom:0px;
+    right:10px;
+ 
+}
+.Chat_Box_Div:hover 
+{
+    cursor:pointer;
+}
+
+.Chat_Contents_Td 
+{
+    height:230px;
+    max-height:250px;
+    width:180px;
+    border:solid;
+    border-width:1px;
+    border-color:#cacaca;
+    background-color:#edeff4;
+    overflow:scroll;
+    
+}
+.Chat_TextBox_Td {
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+}
+.insert-form 
+{
+    margin-top:30px;
+    border:1px solid #dfdfdf;
+    width:740px;
+    border-collapse:separate;
+    font-family:Arial;
+    margin-left:20px;
+    font-size:12px;
+
+}
+#Div4 
+{
+    display: inline;
+    position: relative;
+}
+#Div4:hover:after
+{
+    background: #333;
+    background: #91dff3;
+    opacity:0.8;
+    border-radius: 5px;
+    bottom: 26px;
+    color: white;
+    content: attr(tooltip);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+    font-family:Arial;
+    font-size:12px;
+}
+#Div4:hover:before
+{
+    border: solid;
+    border-color: #91dff3 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+}
